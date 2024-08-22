@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 13.5px;
+    font-family: "arial";
+}
+
+.input img{
+
+    width: 17px;
+
+}
+
+.input input{
+
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+.paper{
+
+    background-color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+    width: 30vw;
+    box-shadow: 10px 10px 20px rgba(102, 102, 102, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+body{
+
+    background-color: #f6f6f6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input{
+    border: 1px solid rgba(221, 221, 221, 0);
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin-bottom: 1rem;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+input[type=submit]{
+
+    width: 100%;
+    background: linear-gradient(120deg, rgb(219, 22, 176), rgb(21, 57, 216));
+    color: aliceblue;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+
+}
+
+.welcome{
+
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+
+}
+
+span{
+display: flex;
+align-items: center;
+margin: 1.5rem 0;
+}
+
+span p{
+    margin-left: 5px;
+}
+span input{
+
+    border: none;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:link, a:visited{
+
+    color: gray;
+
+}
+form > img{
+
+    width: 50px;
+    align-self: center;
+    margin: 10px 0;
+}
+
+footer{
+
+    margin-top: 2rem;
+
+}
+
+.input:hover{
+
+    border: 1px solid rgb(221, 221, 221);
+
+}
+
+footer u{
+    color: rgb(21, 57, 216);
+    cursor: pointer;
+}
+
+.footer{
+    font-size: 12px;
+    margin-top: 2rem;
+    color: grey;
+}
+
+
